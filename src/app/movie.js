@@ -25,6 +25,9 @@ const HomePage = () => {
                 <video
                     width="100%"
                     controls
+                    autoPlay
+                    loop
+                    muted
                     style={{
                         border: '3px solid #ccc',
                         borderRadius: '8px',
